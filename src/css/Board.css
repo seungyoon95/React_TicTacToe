@@ -1,0 +1,28 @@
+.board {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-ui {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-reset-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
