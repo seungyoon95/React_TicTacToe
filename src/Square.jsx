@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/Square.css';
 
-function Square({onClick, box}) {
+function Square() {
 
   return (
-    <div className="square" onClick={onClick}>
-      <span className="square-text">{box}</span>
+    <div className="square">
+      <span className="square-text"></span>
     </div>
   );
 }
